@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<<header class="top-header">
+    <div class="nav-left">
+        <img src="https://imgs.search.brave.com/Z5onxyTRjJFA3m58WN5P_x2uyl-e9Uj0x0exDN4n9T8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/YXJjaGl0ZWN0dXJl/bmRlc2lnbi5uZXQv/d3AtY29udGVudC91/cGxvYWRzLzIwMjMv/MDYvQUQtQXR0cmFj/dGl2ZS1Gb29kLVBo/b3Rvcy0yNC5qcGc" alt="Food on Call Logo" class="logo">
+        <div>
+            <h1>Food on Call</h1>
+            <p>Order your favorite food online</p>
+        </div>
+    </div>
+
+    <input type="text" placeholder="Search for food..." class="search">
+</header>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Food on Call</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🍔 Food on Call</h1>
+    <p>Order your favorite food online</p>
+</header>
+
+<!-- OFFERS -->
+<section class="offers">
+    <h2>🎉 Special Offers</h2>
+    <div class="offer-box">Flat 20% OFF on orders above ₹299</div>
+</section>
+
+<!-- TRENDING -->
+<section class="trending">
+    <h2>📈 Trending Combos</h2>
+    <span class="trend-item">Burger Combo</span>
+    <span class="trend-item">Momos Plate</span>
+    <span class="trend-item">Cheese Pizza</span>
+</section>
+
+<!-- MENU -->
+<section class="menu">
+    <div class="item">
+        <img src="https://imgs.search.brave.com/AxxTBCv8k1tgJTJ9D-QyTEYjOHrhCHMrnZIwX7sYJeU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wMTIv/MDU1LzU2My9zbWFs/bC90d28taG9tZW1h/ZGUtYnVyZ2Vycy13/aXRoLWJlZWYtY2hl/ZXNlLWFuZC1vbmlv/bi1tYXJtYWxhZGUt/b24tYS13b29kZW4t/Ym9hcmQtZnJpZXMt/aW4tYS1tZXRhbC1i/YXNrZXQtYW5kLXNh/dWNlcy1mYXN0LWZv/b2QtY29uY2VwdC1h/bWVyaWNhbi1mb29k/LXBob3RvLmpwZw" alt="Burger">
+        <h3>Burger</h3>
+        <p>₹50</p>
+        <button onclick="addToCart('Burger',50)">Add to Cart</button>
+        <div class="rating">⭐⭐⭐⭐☆</div>
+    </div>
+
+    <div class="item">
+        <img src="https://imgs.search.brave.com/qB7xRcvCtwkpr2uwDoPezql74__kHzVA1Sd57unTH-Y/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMucGV4ZWxzLmNv/bS9waG90b3MvMjg0/NDU1ODcvcGV4ZWxz/LXBob3RvLTI4NDQ1/NTg3L2ZyZWUtcGhv/dG8tb2YtZGVsaWNp/b3VzLWZyaWVkLXZl/Zy1tb21vcy13aXRo/LXNhdWNlLW9uLW1h/cmJsZS1zdXJmYWNl/LmpwZWc_YXV0bz1j/b21wcmVzcyZjcz10/aW55c3JnYiZkcHI9/MSZ3PTUwMA" alt="Momos">
+        <h3>Momos</h3>
+        <p>₹70</p>
+        <button onclick="addToCart('Momos',70)">Add to Cart</button>
+        <div class="rating">⭐⭐⭐⭐☆</div>
+    </div>
+
+    <div class="item">
+        <img src="https://imgs.search.brave.com/kuqBVyTS8B7-Ienp5v3pI4D6mz6IbRchiFLwX7OFFb0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAxLzMzLzYxLzcy/LzM2MF9GXzEzMzYx/NzI0NF9kV2RpdlJY/d29MVnpvd2wxa24z/aUZQOUpHY3VOZDhu/Ni5qcGc" alt="Pizza">
+        <h3>PIZZA</h3>
+        <p>₹250</p>
+        <button onclick="addToCart('Pizza',250)">Add to Cart</button>
+        <div class="rating">⭐⭐⭐⭐☆</div>
+    </div>
+
+    <div class="item">
+       <img src="https://imgs.search.brave.com/ohMDJKbg92FBRxYWNVXAH5QXPA293NfAye6GRE9Hz54/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/c2h1dHRlcnN0b2Nr/LmNvbS9pbWFnZS1w/aG90by9mYXJmYWxs/ZS1jb29rZWQtcGFz/dGEtaXRhbGlhbm8t/dG9tYXRvLTI2MG53/LTIxNzg5MjkxMDEu/anBn" alt="Pasta">
+        <h3>Pasta</h3>
+        <p>₹180</p>
+        <button onclick="addToCart('Pasta',180)">Add to Cart</button>
+        <div class="rating">⭐⭐⭐⭐☆</div>
+    </div>
+</section>
+
+<!-- UPCOMING ORDERS -->
+<section class="upcoming">
+    <h2>⏳ Upcoming DEALS</h2>
+    <ul id="upcomingList"></ul>
+</section>
+
+<!-- CART -->
+<section class="cart">
+    <h2>🛒 Cart</h2>
+    <ul id="cartList"></ul>
+    <h3>Total: ₹<span id="total">0</span></h3>
+    <p id="offerMsg"></p>
+    <button class="order-btn" onclick="placeOrder()">Place Order</button>
+</section>
+
+<script src="script.js"></script>
+</body>
+<footer>
+    <p>© 2026 Food on Call | Fast • Fresh • Delicious</p>
+</footer>
+</html>

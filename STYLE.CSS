@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+}
+
+header {
+    background: #ff4d4d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 30px;
+}
+
+.item {
+    background: white;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.item button {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cart, .offers, .trending, .upcoming {
+    background: white;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.offer-box {
+    background: #ffe5e5;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.trend-item {
+    background: #ff4d4d;
+    color: white;
+    padding: 8px 12px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.order-btn {
+    background: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+/* Food images */
+.item img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+/* HEADER IMPROVEMENT */
+.top-header {
+    background: linear-gradient(90deg, #ff4d4d, #ff884d);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.search {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    width: 220px;
+    outline: none;
+}
+
+/* Rating stars */
+.rating {
+    color: #ff9800;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+/* Price styling */
+.item p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+/* NAV BAR LAYOUT */
+.top-header {
+    background: linear-gradient(90deg, #ff4d4d, #ff884d);
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* LEFT SIDE (LOGO + TEXT) */
+.nav-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* LOGO IMAGE */
+.logo {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+}
+
+/* SEARCH */
+.search {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    width: 220px;
+    outline: none;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 600px) {
+    .top-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    .search {
+        width: 100%;
+        max-width: 300px;
+    }
+}
